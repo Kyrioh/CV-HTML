@@ -1,0 +1,110 @@
+body
+{
+  font-family: Calibri;
+}
+
+
+
+.page {
+  width: 1500px;
+  font-size: 16px;
+  margin-top: 0px;
+  padding-top: 0px;
+  color: white ;
+}
+
+.infophoto {
+  height: 250px;
+}
+
+.info {
+  float: left;
+  font-size: 40px;
+}
+
+.image {
+  float: right;
+}
+
+.section {
+  margin-bottom: 250px;
+  margin-top: 350px;
+  text-align: justify;
+
+
+}
+
+.sec-gauche {
+  overflow: hidden;
+
+  font-size: 30px;
+  margin-left: 100px;
+
+}
+
+.sec-droite {
+  overflow: hidden;
+  margin-left: 500px;
+}
+
+h2 {
+  font-size: 28px;
+  color: #f5744d;
+  border bottom : 3px solid #20A6EC;
+  font-size: 50px;
+}
+
+.duree {
+  font-weight: normal;
+  font-style: italic;
+  font-size: 16px;
+}
+
+.titre {
+  font-weight: bold;
+  font-size: 30px;
+
+}
+
+
+.image {
+width: 30%;
+border-radius: 50%;
+border-style: solid;
+border-color: white;
+border-width: 7px;
+
+}
+
+  {
+  color: green
+}
+
+#video-section {
+  position: relative;
+  width: auto;
+  height: auto;
+}
+#video-elem {
+  position: relative;
+  width: 86%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+
+}
+
+video {
+  position: fixed;
+  justify-content: center;
+  z-index: -1;
+  width: 120%;
+}
+
+#titre {
+  margin-left: -10px;
+  margin-right: -8px;
+  margin-top: -10px;
+}

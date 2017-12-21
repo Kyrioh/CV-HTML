@@ -1,0 +1,114 @@
+@media (max-width: 480px) and (max-width:780px )
+{
+
+  body
+ {
+   font-family: Calibri;
+ }
+  .page {
+    width: 310px;
+    font-size: 16px;
+    margin-top: 0px;
+    padding-top: 0px;
+    color: white ;
+  }
+
+  .infophoto {
+    height: 200px;
+  }
+
+  .info {
+    float: left;
+    font-size: 11px;
+  }
+
+  .image {
+    float: right;
+  }
+
+  .section {
+    margin-bottom: auto;
+    margin-top: auto;
+    text-align: justify;
+
+
+
+  }
+
+  .sec-gauche {
+    overflow: hidden;
+
+    font-size: 15px;
+    margin-left: 100px;
+
+  }
+
+  .sec-droite {
+    overflow: hidden;
+    margin-left: 500px;
+  }
+
+  h2 {
+    font-size: 10px;
+    color: #f5744d;
+    border bottom : 3px solid #20A6EC;
+    font-family:fantasy;
+    font-size: 15px;
+  }
+
+  .duree {
+    font-weight: normal;
+    font-style: italic;
+    font-size: 16px;
+  }
+
+  .titre {
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+
+  .image {
+  width: 30%;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+
+  }
+
+    {
+    color: green
+  }
+
+  #video-section {
+    position: relative;
+    width: auto;
+    height: auto;
+  }
+  #video-elem {
+    position: relative;
+    width: 86%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+
+  }
+
+  video {
+    position: fixed;
+    justify-content: center;
+    z-index: -1;
+    width: 500%;
+  }
+
+  #titre {
+    margin-left: -10px;
+    margin-right: -8px;
+    margin-top: -10px;
+  }
+
+  /*propriétés pour mobile*/
+}
